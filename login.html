@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Jockey+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <div class="login-container">
+        <div class="login-form-container">
+          <div class="login-form-header">
+            <h1 class="jockey-one-regular">Welcome Back</h1>
+            <p>Please Enter Your Email and Password to Login</p>
+          </div>
+          <form action class="login-form" id="loginForm">
+            <div class="form-input">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+              <span class="error-message" id="emailError">Email or password is incorrect</span>
+            </div>
+            <div class="form-input">
+              <label for="Password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+                required
+              />
+              <span class="error-message" id="passwordError">Email or password is incorrect</span>
+            </div>
+            <div class="login-form-footer">
+              <div class>
+                <input type="checkbox" name id="remember" />
+                <label for="remember">Remember Me</label>
+              </div>
+              <a href>Forgot Your Password</a>
+            </div>
+            <button type="submit">Login</button>
+          </form>
+          <div class="login-with">
+            <div class="divider">
+              <hr />
+              <p>Or Login With</p>
+              <hr />
+            </div>
+            <div class="login-with-icons">
+              <a href=""><i class="ph ph-google-logo"></i></a>
+              <a href=""><i class="ph ph-facebook-logo"></i></a>
+              <a href=""><i class="ph ph-apple-logo"></i></a>
+            </div>
+            <p class="register-now">
+              Dont Have an Account?<a href>Register Now</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="content-container">
+        <h1>Programmer Desa</h1>
+        <p>
+          <i
+            >"I established the 'Programmer Desa' program with the hope of
+            creating a tech-literate society, even reaching the remotest regions
+            of the country"</i
+          >
+        </p>
+        <div class>
+          <h3>Muh Andi Novianto</h3>
+          <p>Founder of Programmer Desa</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
