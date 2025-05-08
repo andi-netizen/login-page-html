@@ -4,7 +4,7 @@ design by me with using figma and i develop with vscode.
 
 this code is very responsive to mobile view (width : 768px) and Desktop view.
 
-im only using HTMl, CSS, and Vanila Javascript.
+im only using HTML, CSS, and Vanila Javascript.
 
 ![image](https://github.com/user-attachments/assets/ccee9ccd-bfca-4934-a8ac-7e72d6b80baa)
 
